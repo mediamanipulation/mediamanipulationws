@@ -2,7 +2,7 @@ import React from "react";
 // import QuoteAndAuthor from "./QuoteAndAuthor";
 import Typography from '@material-ui/core/Typography';
 import ArtQuotes from './ArtQuotes'
-import "./Quote.css";
+// import "./Quote.css";
 import Fade from '@material-ui/core/Fade';
 
 const durationText2 = 2500;

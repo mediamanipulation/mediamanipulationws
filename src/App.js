@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { BrowserRouter } from 'react-router-dom';
 import Nav from './components/nav/index';
 import Home from './containers/Home'
 import Footer from './components/footer/footer'
@@ -8,7 +7,6 @@ import Footer from './components/footer/footer'
 class App extends Component {
   render() {
     
-console.log(BrowserRouter);
     return (
       <div>
         <Nav />
