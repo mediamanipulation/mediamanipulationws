@@ -42,7 +42,7 @@ const useStyles = makeStyles(theme => ({
   },
   hamb: {
     opacity: 1,
-    ["@media (min-width:780px)"]: {
+    "@media (min-width:780px)": {
       // eslint-disable-line no-useless-computed-key
  
       display: "none",
@@ -157,21 +157,21 @@ export default function ButtonAppBar() {
             </IconButton>
           </Button>
           <Typography variant="h6" className={classes.title}>
-            <Fade timeout={durationTextLogo} in="true">
+            <Fade timeout={durationTextLogo} in='true'>
               <div>mediamanipulation</div>
             </Fade>
           </Typography>
           <div className={classes.mqMoblie}>
-            <Fade timeout={durationTextMenu1} in="true">
+            <Fade timeout={durationTextMenu1} in='true'>
               <Button color="inherit">art</Button>
             </Fade>
-            <Fade timeout={durationTextMenu2} in="true">
+            <Fade timeout={durationTextMenu2} in='true'>
               <Button color="inherit">bio</Button>
             </Fade>
-            <Fade timeout={durationTextMenu3} in="true">
+            <Fade timeout={durationTextMenu3} in='true'>
               <Button color="inherit">demos</Button>
             </Fade>
-            <Fade timeout={durationTextMenu4} in="true">
+            <Fade timeout={durationTextMenu4} in='true'>
               <Button color="inherit">contact</Button>
             </Fade>
           </div>

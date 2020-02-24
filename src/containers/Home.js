@@ -11,6 +11,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 //import Link from '@material-ui/core/Link';
 import Fade from '@material-ui/core/Fade';
+import Quote from '../components/quotes'
 // import Transition from 'react-transition-group/Transition';
 
 // function Copyright() {
@@ -27,7 +28,6 @@ import Fade from '@material-ui/core/Fade';
 // }
 const durationCard = 3000;
 const durationText1 = 2000;
-const durationText2 = 2500;
 const durationText3 = 3500;
 
 // const defaultStyle = {
@@ -91,14 +91,7 @@ export default function Album() {
               </div>
               </Fade>
             </Typography>
-            <Typography variant="h5" align="right" color="textSecondary">
-            <Fade timeout={durationText2} in='true' >
-            <div>
-            The power of nature is such that it’s what all art strives to be. The more we can get in tune with the harmony of the planet, the more our art can benefit from that relationship. Rick Rubin
-              </div>
-              </Fade>
-            </Typography>
-           
+           <Quote />
             {/* <div className={classes.heroButtons}>
               <Grid container spacing={2} justify="center">
                 <Grid item>
