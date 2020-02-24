@@ -46,7 +46,8 @@ const useStyles = makeStyles(theme => ({
     marginRight: theme.spacing(2),
   },
   heroContent: {
-    padding: theme.spacing(1, 0, 1),
+    marginTop: 'auto',
+    padding: theme.spacing(0, 0, 0),
   },
   // heroButtons: {
   //   marginTop: theme.spacing(4),
@@ -79,7 +80,6 @@ export default function Album() {
 
   return (
     <React.Fragment>
-      <CssBaseline />
       <main>
         {/* Hero unit */}
         <div className={classes.heroContent}>
@@ -110,7 +110,7 @@ export default function Album() {
         </div>
         <Container className={classes.cardGrid} maxWidth="md">
           {/* End hero unit */}
-          <Grid container spacing={4}>
+          <Grid container spacing={6}>
             {cards.map(card => (
               <Grid item key={card} xs={12} sm={6} md={4}>
               <Fade timeout={durationCard} in='true' >
@@ -144,7 +144,7 @@ export default function Album() {
         </Container>
       </main>
       <Container maxWidth="md">
-      <Typography variant="h7" align="center" color="textSecondary">
+      <Typography variant="h7" align="center" color="textSecondary" paragraph='true'>
             <Fade timeout={durationText3} in='true' >
             <div>
               Something short and leading about the collection below—its contents, the creator, etc.

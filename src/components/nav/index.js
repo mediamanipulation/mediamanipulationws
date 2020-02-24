@@ -44,8 +44,8 @@ const useStyles = makeStyles(theme => ({
     opacity: 1,
     "@media (min-width:780px)": {
       // eslint-disable-line no-useless-computed-key
- 
-      display: "none",
+
+      display: "none"
     }
   },
   mqMoblie: {
@@ -60,10 +60,7 @@ const useStyles = makeStyles(theme => ({
 export default function ButtonAppBar() {
   const classes = useStyles();
   const [state, setState] = React.useState({
-    top: false,
-    left: false,
-    bottom: false,
-    right: false
+    left: false
   });
 
   const toggleDrawer = (side, open) => event => {
@@ -157,21 +154,21 @@ export default function ButtonAppBar() {
             </IconButton>
           </Button>
           <Typography variant="h6" className={classes.title}>
-            <Fade timeout={durationTextLogo} in='true'>
+            <Fade timeout={durationTextLogo} in="true">
               <div>mediamanipulation</div>
             </Fade>
           </Typography>
           <div className={classes.mqMoblie}>
-            <Fade timeout={durationTextMenu1} in='true'>
+            <Fade timeout={durationTextMenu1} in="true">
               <Button color="inherit">art</Button>
             </Fade>
-            <Fade timeout={durationTextMenu2} in='true'>
+            <Fade timeout={durationTextMenu2} in="true">
               <Button color="inherit">bio</Button>
             </Fade>
-            <Fade timeout={durationTextMenu3} in='true'>
+            <Fade timeout={durationTextMenu3} in="true">
               <Button color="inherit">demos</Button>
             </Fade>
-            <Fade timeout={durationTextMenu4} in='true'>
+            <Fade timeout={durationTextMenu4} in="true">
               <Button color="inherit">contact</Button>
             </Fade>
           </div>
