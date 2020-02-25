@@ -873,9 +873,6 @@ const ArtQuotes=[
         "author": "Olafur Eliasson"
       },
       {
-        "quote": "See also: Why art has the power to change the world"
-      },
-      {
         "quote": "Every line is the actual experience with its own unique story.",
         "author": "Cy Twombly"
       },
@@ -912,7 +909,8 @@ const ArtQuotes=[
         "author": "Salvador Dalí"
       },
       {
-        "quote": "The Revolution introduced me to art, and in turn, art introduced me to the Revolution! Albert Einstein"
+        "quote": "The Revolution introduced me to art, and in turn, art introduced me to the Revolution!",
+        "author": "Albert Einstein"
       },
       {
         "quote": "The painting rises from the brushstrokes as a poem rises from the words.",
@@ -1039,7 +1037,8 @@ const ArtQuotes=[
         "author": "Jackson Pollock"
       },
       {
-        "quote": "(On how he knows when he’s finished) How do you know when you’re finished making love? Jackson Pollock"
+        "quote": "(On how he knows when he’s finished) How do you know when you’re finished making love?",
+        "author": "Jackson Pollock"
       },
       {
         "quote": "When I am in my painting, I’m not aware of what I’m doing.",
@@ -1242,7 +1241,8 @@ const ArtQuotes=[
         "author": "Helen Keller"
       },
       {
-        "quote": "Every morning when I wake up, I experience an exquisite joy – the joy of being Salvador Dalí – and I ask myself in rapture: What wonderful things is this Salvador Dalí going to accomplish today?” Salvador Dalí"
+        "quote": "Every morning when I wake up, I experience an exquisite joy – the joy of being Salvador Dalí – and I ask myself in rapture: What wonderful things is this Salvador Dalí going to accomplish today?",
+        "author": "Salvador Dalí"
       },
       {
         "quote": "After a certain high level of technical skill is achieved, science and art tend to coalesce in aesthetics, plasticity, and form.",
@@ -1313,7 +1313,8 @@ const ArtQuotes=[
         "author": "Aristotle"
       },
       {
-        "quote": "My art is capable of liberating man from the tyranny of the ‘practical, rational world.’ Salvador Dalí"
+        "quote": "My art is capable of liberating man from the tyranny of the ‘practical, rational world.’ ",
+        "author": "Salvador Dalí"
       },
       {
         "quote": "In art, and in the higher ranges of science, there is a feeling of harmony which underlies all endeavor.",
@@ -1392,9 +1393,6 @@ const ArtQuotes=[
         "author": "Pablo Picasso"
       },
       {
-        "quote": "See also: 7 Ways Art Improves Quality of Life"
-      },
-      {
         "quote": "Painting is just another way of keeping a diary.",
         "author": "Pablo Picasso"
       },
@@ -1421,9 +1419,6 @@ const ArtQuotes=[
       {
         "quote": "You are born alone.",
         "author": "Louise Bourgeois"
-      },
-      {
-        "quote": "See also: Artist Louise Bourgeois on How Solitude Enriches Creative Work"
       },
       {
         "quote": "Painting must be fertile.",
