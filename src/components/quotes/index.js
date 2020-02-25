@@ -1,9 +1,9 @@
 import React from "react";
 // import QuoteAndAuthor from "./QuoteAndAuthor";
-import Typography from '@material-ui/core/Typography';
-import ArtQuotes from './ArtQuotes'
+import Typography from "@material-ui/core/Typography";
+import ArtQuotes from "./ArtQuotes";
 // import "./Quote.css";
-import Fade from '@material-ui/core/Fade';
+import Fade from "@material-ui/core/Fade";
 
 const durationText2 = 2500;
 
@@ -12,7 +12,7 @@ class Quote extends React.Component {
     super();
     this.state = {
       quote: ArtQuotes[0].quote,
-      author: ArtQuotes[0].author,
+      author: ArtQuotes[0].author
     };
   }
   componentDidMount() {
@@ -21,10 +21,9 @@ class Quote extends React.Component {
   randomQuote() {
     const randomNumber = Math.floor(Math.random() * ArtQuotes.length);
     return ArtQuotes[randomNumber];
-    
   }
-  shuffleQuotes(array){
-    return array.sort(()=>Math.random()-0.5)
+  shuffleQuotes(array) {
+    return array.sort(() => Math.random() - 0.5);
   }
 
   handleClick = () => {
@@ -33,7 +32,7 @@ class Quote extends React.Component {
       quote: generateRandomQuote.quote,
       author: generateRandomQuote.author
     });
-    this.shuffleQuotes(ArtQuotes)
+    this.shuffleQuotes(ArtQuotes);
   };
 
   randomColor() {
@@ -43,18 +42,15 @@ class Quote extends React.Component {
       ${Math.floor(Math.random() * 155)})`;
     return color;
   }
-  
+
   render() {
     return (
       <div>
-   <Typography variant="h5" align="right" color="textSecondary">
-            <Fade timeout={durationText2} in='true' >
-            <div>
-           {this.state.quote}  -  {this.state.author}
-              </div>
-              </Fade>
-            </Typography>
-           
+        <Typography variant="h5" align="right" color="textSecondary">
+          <div>
+            {this.state.quote} - {this.state.author}
+          </div>
+        </Typography>
       </div>
     );
   }

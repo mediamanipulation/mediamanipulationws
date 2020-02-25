@@ -143,32 +143,31 @@ export default function ButtonAppBar() {
     <div className={classes.root}>
       <AppBar color="transparent" position="static">
         <Toolbar>
-          <Button className={classes.hamb} onClick={toggleDrawer("left", true)}>
             <IconButton
               edge="start"
-              className={classes.menuButton}
+               onClick={toggleDrawer("left", true)}
+              className={classes.menuButton, classes.hamb}
               color="secondary"
               aria-label="menu"
             >
               <MenuIcon />
             </IconButton>
-          </Button>
           <Typography variant="h6" className={classes.title}>
-            <Fade timeout={durationTextLogo} in="true">
+            <Fade in={true} timeout={durationTextLogo} >
               <div>mediamanipulation</div>
             </Fade>
           </Typography>
           <div className={classes.mqMoblie}>
-            <Fade timeout={durationTextMenu1} in="true">
+            <Fade in={true} timeout={durationTextMenu1} >
               <Button color="inherit">art</Button>
             </Fade>
-            <Fade timeout={durationTextMenu2} in="true">
+            <Fade in={true} timeout={durationTextMenu2} >
               <Button color="inherit">bio</Button>
             </Fade>
-            <Fade timeout={durationTextMenu3} in="true">
+            <Fade in={true} timeout={durationTextMenu3} >
               <Button color="inherit">demos</Button>
             </Fade>
-            <Fade timeout={durationTextMenu4} in="true">
+            <Fade in={true} timeout={durationTextMenu4} >
               <Button color="inherit">contact</Button>
             </Fade>
           </div>
